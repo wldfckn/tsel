@@ -17,7 +17,7 @@ function telkreg($no, $jum, $wait){
         flush();
     }
 }
-echo "Nomor HP 08/6208: ";
+echo "Nomor HP beri 08/628: ";
 $nomor = trim(fgets(STDIN));
 echo "Jumlah Pesan yang diterima ( Minimal 1 ): ";
 $jumlah = trim(fgets(STDIN));
